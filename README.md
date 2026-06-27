@@ -1,5 +1,11 @@
 # 🤖 AI Research Copilot
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-green)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-VectorDB-purple)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 AI Research Copilot is an AI-powered PDF research assistant that helps users upload documents, extract content, split long text into chunks, and answer questions from PDF files.
 
 ## 🚀 Features
