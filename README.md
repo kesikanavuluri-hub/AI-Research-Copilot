@@ -46,3 +46,17 @@ AI Research Copilot is an AI-powered PDF research assistant that helps users upl
                 | Accurate Answer   |
                 +-------------------+
 ```
+
+## 📷 Application Preview
+
+### Home Screen
+
+![Home](C:\Users\navul\OneDrive\Desktop\kesika\full time\AIML\homepage_AI.png)
+
+### Upload PDF
+
+![Upload](images/upload.png)
+
+### Generated Answer
+
+![Answer](images/answer.png)
