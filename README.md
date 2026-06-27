@@ -13,15 +13,36 @@ AI Research Copilot is an AI-powered PDF research assistant that helps users upl
 
 ## 🧠 How It Works
 
+## 🏗️ Architecture
+
 ```text
-PDF Upload
-    ↓
-Text Extraction
-    ↓
-Smart Chunking
-    ↓
-Question Input
-    ↓
-Relevant Text Search
-    ↓
-Answer Generation
+                +-------------------+
+                |   Upload PDF      |
+                +---------+---------+
+                          |
+                          v
+                +-------------------+
+                |  Extract Text     |
+                +---------+---------+
+                          |
+                          v
+                +-------------------+
+                | Smart Chunking    |
+                +---------+---------+
+                          |
+                          v
+                +-------------------+
+                | Vector Search     |
+                | (ChromaDB)        |
+                +---------+---------+
+                          |
+                          v
+                +-------------------+
+                | Gemini AI         |
+                +---------+---------+
+                          |
+                          v
+                +-------------------+
+                | Accurate Answer   |
+                +-------------------+
+```
